@@ -1,0 +1,32 @@
+.sidemenu {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    background-color: #f0f0f0;
+    padding: 10px;
+    transition: width 0.3s;
+  }
+  
+  .sidemenu.collapsed {
+    width: 70px;
+  }
+  
+  h3 {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .collapse-button {
+    display: block;
+    margin: 10px auto;
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .collapse-button:focus {
+    outline: none;
+  }
+  
